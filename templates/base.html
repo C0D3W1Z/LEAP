@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>{% block title %}{% endblock %}</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/assets/img/favicon.png" rel="icon">
+  <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="page-index">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="/" class="logo d-flex align-items-center">
+        <h1 class="d-flex align-items-center">L<span style="color: orange;">&nbsp;.&nbsp;</span>E<span style="color: orange;">&nbsp;.&nbsp;</span>A<span style="color: orange;">&nbsp;.&nbsp;</span>P<span style="color: orange;">&nbsp;.&nbsp;</span></h1>
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li class="dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="/parentresources">Parent Resources</a></li>
+              <li><a href="/studentresources">Student Resources</a></li>
+            </ul>
+          </li>
+          <li><a href="/team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Applications</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="/schoolapplication">School Application</a></li>
+              <li><a href="/volunteerapplication">Volunteer Application</a></li>
+            </ul>
+          </li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  {% block code %}{% endblock %}
+
+  
+<!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+
+    <div class="footer-content">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span>L . E . A . P .</span>
+            </a>
+            <p>Welcome to LEAP! We're a group of US students teaching English to children in India. Our mission is to empower these kids with language skills for success. Join us as we bridge the education gap and foster growth through knowledge.</p>
+          </div>
+  
+          <div class="col-lg-2 col-6 footer-links">
+          </div>
+  
+          <div class="col-lg-2 col-6 footer-links">
+          </div>
+  
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              <strong>Phone:</strong> +1 <br>
+              <strong>Email:</strong> leapenglishtutor.org<br>
+            </p>
+  
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-legal">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>L . E . A . P</span></strong>. All Rights Reserved
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer --><!-- End Footer -->
+  
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  
+  <div id="preloader"></div>
+  
+  <!-- Vendor JS Files -->
+  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/vendor/aos/aos.js"></script>
+  <script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/assets/vendor/php-email-form/validate.js"></script>
+  
+  <!-- Template Main JS File -->
+  <script src="static/assets/js/main.js"></script>
+  
+  </body>
+  
+  </html>
+  
